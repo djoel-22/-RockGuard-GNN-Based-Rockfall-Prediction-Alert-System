@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets & credentials
+config.env
+*.env
+!config.example.env
+secrets.json
+firebase_credentials.json
+service_account.json
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Model checkpoints (if large — keep stability_gnn.pth as it's small)
+# *.pth
+
+# Test uploads / temp files
+*.obj
+*.glb
+*.stl
+*.gltf
+test_data/
+tmp/
+
+# Coverage
+.coverage
+htmlcov/

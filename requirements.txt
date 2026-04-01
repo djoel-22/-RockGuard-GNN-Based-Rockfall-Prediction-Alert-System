@@ -1,0 +1,27 @@
+# Core GUI
+PyQt6>=6.5.0
+
+# Deep Learning & GNN
+torch>=2.0.0
+torch-geometric>=2.3.0
+
+# 3D Visualization
+vtk>=9.2.0
+trimesh>=4.0.0
+
+# Data & Scientific Computing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Firebase
+pyrebase4>=4.6.0
+requests>=2.31.0
+
+# Twilio (Voice Alerts)
+twilio>=8.0.0
+
+# Optional: GPU acceleration (install matching your CUDA version)
+# torch-scatter
+# torch-sparse
+# torch-cluster
